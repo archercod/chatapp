@@ -10,6 +10,8 @@
 		7F2B838BCE3065DCF4292F3C /* Pods_chatapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116D61ED51E807F47111221 /* Pods_chatapp.framework */; };
 		EAD295D1201B4DAA00B42EB9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */; };
 		EAD295D3201B4DDB00B42EB9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */; };
+		EAD295D5201B4EC300B42EB9 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */; };
+		EAD295D7201B516F00B42EB9 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D6201B516F00B42EB9 /* ShadowView.swift */; };
 		EAED3D62201A0CA200980F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED3D61201A0CA200980F6F /* AppDelegate.swift */; };
 		EAED3D64201A0CA200980F6F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED3D63201A0CA200980F6F /* FirstViewController.swift */; };
 		EAED3D66201A0CA200980F6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED3D65201A0CA200980F6F /* SecondViewController.swift */; };
@@ -26,6 +28,8 @@
 		A116D61ED51E807F47111221 /* Pods_chatapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		EAD295D6201B516F00B42EB9 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		EAED3D5E201A0CA200980F6F /* chatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAED3D61201A0CA200980F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAED3D63201A0CA200980F6F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		EAED3D76201A23B900980F6F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */,
+				EAD295D6201B516F00B42EB9 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,7 +289,9 @@
 				EAED3D66201A0CA200980F6F /* SecondViewController.swift in Sources */,
 				EAD295D3201B4DDB00B42EB9 /* LoginVC.swift in Sources */,
 				EAED3D62201A0CA200980F6F /* AppDelegate.swift in Sources */,
+				EAD295D7201B516F00B42EB9 /* ShadowView.swift in Sources */,
 				EAED3D64201A0CA200980F6F /* FirstViewController.swift in Sources */,
+				EAD295D5201B4EC300B42EB9 /* InsetTextField.swift in Sources */,
 				EAED3D7D201A26E300980F6F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
