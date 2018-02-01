@@ -11,6 +11,9 @@
 		EA0A219F201B5F5D00E29469 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A219E201B5F5D00E29469 /* AuthService.swift */; };
 		EA0A21A1201B78CF00E29469 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A0201B78CF00E29469 /* MeVC.swift */; };
 		EA0A21A3201F297100E29469 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A2201F297100E29469 /* CreatePostVC.swift */; };
+		EA0A21A5201F2FD000E29469 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A4201F2FD000E29469 /* UIViewExt.swift */; };
+		EA0A21A7201F347200E29469 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A6201F347200E29469 /* FeedCell.swift */; };
+		EA0A21A9201F35BD00E29469 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A8201F35BD00E29469 /* Message.swift */; };
 		EAD295D1201B4DAA00B42EB9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */; };
 		EAD295D3201B4DDB00B42EB9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */; };
 		EAD295D5201B4EC300B42EB9 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */; };
@@ -32,6 +35,9 @@
 		EA0A219E201B5F5D00E29469 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		EA0A21A0201B78CF00E29469 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		EA0A21A2201F297100E29469 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		EA0A21A4201F2FD000E29469 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		EA0A21A6201F347200E29469 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		EA0A21A8201F35BD00E29469 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 			children = (
 				EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */,
 				EAD295D6201B516F00B42EB9 /* ShadowView.swift */,
+				EA0A21A6201F347200E29469 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 		EAED3D77201A23C200980F6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA0A21A8201F35BD00E29469 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 		EAED3D78201A23D700980F6F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EA0A21A4201F2FD000E29469 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0A21A5201F2FD000E29469 /* UIViewExt.swift in Sources */,
+				EA0A21A7201F347200E29469 /* FeedCell.swift in Sources */,
 				EA0A21A1201B78CF00E29469 /* MeVC.swift in Sources */,
 				EAD295D1201B4DAA00B42EB9 /* AuthVC.swift in Sources */,
 				EAED3D66201A0CA200980F6F /* GroupsVC.swift in Sources */,
@@ -305,6 +316,7 @@
 				EAED3D64201A0CA200980F6F /* FeedVC.swift in Sources */,
 				EAD295D5201B4EC300B42EB9 /* InsetTextField.swift in Sources */,
 				EAED3D7D201A26E300980F6F /* DataService.swift in Sources */,
+				EA0A21A9201F35BD00E29469 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
