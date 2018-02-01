@@ -14,6 +14,7 @@
 		EA0A21A5201F2FD000E29469 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A4201F2FD000E29469 /* UIViewExt.swift */; };
 		EA0A21A7201F347200E29469 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A6201F347200E29469 /* FeedCell.swift */; };
 		EA0A21A9201F35BD00E29469 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A21A8201F35BD00E29469 /* Message.swift */; };
+		EA0ADA0D2023443A009079C6 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0ADA0C2023443A009079C6 /* CreateGroupsVC.swift */; };
 		EAD295D1201B4DAA00B42EB9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */; };
 		EAD295D3201B4DDB00B42EB9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */; };
 		EAD295D5201B4EC300B42EB9 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */; };
@@ -38,6 +39,7 @@
 		EA0A21A4201F2FD000E29469 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		EA0A21A6201F347200E29469 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EA0A21A8201F35BD00E29469 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EA0ADA0C2023443A009079C6 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		EAD295D0201B4DAA00B42EB9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EAD295D4201B4EC300B42EB9 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				EAD295D2201B4DDB00B42EB9 /* LoginVC.swift */,
 				EA0A21A0201B78CF00E29469 /* MeVC.swift */,
 				EA0A21A2201F297100E29469 /* CreatePostVC.swift */,
+				EA0ADA0C2023443A009079C6 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				EAED3D66201A0CA200980F6F /* GroupsVC.swift in Sources */,
 				EAD295D3201B4DDB00B42EB9 /* LoginVC.swift in Sources */,
 				EA0A219F201B5F5D00E29469 /* AuthService.swift in Sources */,
+				EA0ADA0D2023443A009079C6 /* CreateGroupsVC.swift in Sources */,
 				EAED3D62201A0CA200980F6F /* AppDelegate.swift in Sources */,
 				EAD295D7201B516F00B42EB9 /* ShadowView.swift in Sources */,
 				EA0A21A3201F297100E29469 /* CreatePostVC.swift in Sources */,

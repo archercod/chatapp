@@ -68,7 +68,7 @@ class DataService {
             
             for message in feedMessageSnapshot {
                 let content = message.childSnapshot(forPath: "content").value as! String
-                let senderID = message.childSnapshot(forPath: "senderId").value as! String
+                let senderID = message.childSnapshot(forPath: "senderID").value as! String
                 let message = Message(content: content, senderID: senderID)
                 messageArray.append(message)
             }
