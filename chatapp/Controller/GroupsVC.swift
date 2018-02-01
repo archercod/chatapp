@@ -11,18 +11,23 @@ import UIKit
 class GroupsVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var groupsArray = [Group]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         tableView.delegate = self
         tableView.dataSource = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
+            DataService.instance.getAllGroups { (returnedGroupsArray) in
+                self.groupsArray = returnedGroupsArray
+                self.tableView.reloadData()
+            }
+        }
     }
     
 }
@@ -34,14 +39,16 @@ extension GroupsVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return groupsArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "groupCell", for: indexPath) as? GroupCell else { return UITableViewCell() }
         
-        cell.configureCell(title: "Nerd", description: "The nerds", memberCount: 3)
+        let group = groupsArray[indexPath.row]
+        
+        cell.configureCell(title: group.groupTitle, description: group.groupDescription, memberCount: group.memberCount)
         
         return cell
     }
